@@ -86,11 +86,3 @@ if __name__ == "__main__":
     print(f"Number of documents to be added to PostgreSQL: {len(docs)}")
     vector_store.add_documents(docs, ids=[id for id in range(len(docs))])
 
-# path=r"C:\Users\keyar\Documents\Internships\Oneclick\Tasks\LangChain\data"
-# load_pdfs_from_folder(path)
-
-# #pdf/doc
-# #name
-# #mobile number
-# #email
-# #skills(programming language)
